@@ -63,6 +63,6 @@ def save_image_with_mode(pixel_arrays, mode, result_file_name):
     plt.savefig(result_file_name)
 
 
-#save_image_with_mode(get_images_from_dir('./img/'), 'MIP', 'MIP.png')
-save_image_with_mode(get_images_from_dir('./img/'), 'mIP', 'mIP.png')
-#save_image_with_mode(get_images_from_dir('./img/'), 'AIP', 'AIP.png')
+save_image_with_mode(get_images_from_dir('./img/'), 'MIP', 'MIP.png')
+save_image_with_mode(get_images_from_dir('./img/'), 'mIP', 'mIPImage.png')
+save_image_with_mode(get_images_from_dir('./img/'), 'AIP', 'AIP.png')
